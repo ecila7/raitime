@@ -1,0 +1,222 @@
+@font-face{
+  font-family: 'Poiret One';
+  src: url(PoiretOne-Regular.ttf) format("truetype");
+}
+
+@font-face{
+  font-family:'CaviarDreams';
+  src: url(CaviarDreams.ttf) format("truetype");
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #39aed1;
+}
+
+nav{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+nav a{
+  color: white!important;
+  font-size: 1.2rem !important;
+  text-decoration: none;
+  font-family:'CaviarDreams';
+}
+
+nav a:hover{
+  color: #EDBB00!important;
+}
+
+.navbar-toggler span{
+  color: white;
+  font-size: 12px;
+}
+
+.accueil{
+  background-color: #39aed1;
+  height: auto;
+}
+
+.backVid video{
+  width: 100%;
+  height: 100%;
+}
+
+.banner{
+	background-color: #39aed1;
+	height: 50vh;
+}
+.carousel-caption {
+	margin-bottom: 10%;
+}
+.carousel-caption h2 {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h3 {
+  font-family: 'Poiret One';
+	font-size: 40px;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #EDBB00;
+}
+
+.carousel-indicators button{
+  height: 8px !important;
+  width: 8px !important;
+  border-radius: 50% !important;
+  border: solid 2px beige !important;
+  background-color: transparent !important;
+}
+
+.carousel-indicators .active{
+  border: solid 2px #EDBB00 !important;
+  background-color: #EDBB00 !important;
+}
+
+.player{
+  background-color: #f4f3ef;
+  height: 50vh;
+  width: 100%;
+}
+
+.boxPl{
+  height: 70px;
+}
+
+.boxPl audio{
+  width: 100%;
+}
+
+.boxPl h4{
+  font-size: 20px;
+  color: #39aed1;
+  text-transform:uppercase;
+}
+
+audio{
+ height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 280px){
+  .banner{
+    height: 25vh;
+  }
+  .carousel-caption h2{
+    font-size: 15px;
+  }
+  .carousel-caption h3{
+    font-size: 13px;
+  }
+  .carousel-caption {
+	   margin-bottom: 5%;
+  }
+  nav a{
+  font-size: .7rem !important;
+  }
+  .boxPl h4{
+  font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 414px){
+  .banner{
+    height: 25vh;
+  }
+  .carousel-caption h2{
+    font-size: 20px;
+  }
+  .carousel-caption h3{
+    font-size: 15px;
+  }
+  .carousel-caption {
+	   margin-bottom: 8%;
+  }
+  nav a{
+  font-size: .7rem !important;
+  }
+  .boxPl h4{
+  font-size: 15px;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 540px), and (max-width: 768px) {
+  .banner{
+    height: 35vh;
+  }
+  .carousel-caption h2{
+    font-size: 25px;
+  }
+  .carousel-caption h3{
+    font-size: 20px;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+	.banner{
+    height: 28vh;
+  }
+  .carousel-caption h2{
+    font-size: 30px;
+  }
+  .carousel-caption h3{
+    font-size: 25px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+	.banner{
+    height: 50vh;
+  }
+  .carousel-caption h2{
+    font-size: 35px;
+  }
+  .carousel-caption h3{
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
